@@ -1,0 +1,21 @@
+Observe o trecho de código abaixo: int INDICE = 12, SOMA = 0, K = 1; enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; } imprimir(SOMA);
+
+Ao final do processamento, qual será o valor da variável SOMA?
+
+int INDICE = 12, SOMA = 0, K = 1;
+
+enquanto K < INDICE faça {
+    K = K + 1;
+    SOMA = SOMA + K;
+}
+
+imprimir(SOMA);
+
+Resposta:
+ Existem 3 váriaveis, INDICE, SOMA e K, existe um loop que irá se repetir por 11 vezes, já que o indice é 12
+ e ele irá continuar enquanto o K for menor que 12, sendo assim cria-se uma repetição:
+ incialmente a soma é 0.
+ iteração 1 -> K = K + 1, K= 2, SOMA = 2
+ iteração 2 -> K = K + 1, K= 3, SOMA = 5
+ isso se segue por 11 iterações, até que o valor total da soma seja 65.
+  
